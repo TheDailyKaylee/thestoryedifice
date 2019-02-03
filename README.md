@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>URL</key>
-	<string>https://github.com/nduhamell/login-signup-form/blob/master/README.md</string>
+	<string>https://github.com/thedailykaylee/thestoryedifice/blob/master/README.md</string>
 </dict>
 </plist>
