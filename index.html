@@ -1,138 +1,65 @@
 
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html class="">
-  <head>
-    <meta charset="utf-8">
-    <title>Account Management</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
-    <link rel="icon" href="https://static.jsbin.com/images/favicon.png">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://static.jsbin.com/css/help.css?4.1.7">
-    <script>
-      var jsbin = { "static": "https://static.jsbin.com", version: "4.1.7" };
-    </script>
-    <script src="https://static.jsbin.com/js/vendor/html5shiv.min.js?4.1.7"></script>
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-1656750-13', 'auto');
-      ga('require', 'linkid', 'linkid.js');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-      
-      </script>
-  </head>
-  <body>
-    <div id="container">
-      <header>
-      <div class="inner"><a id="back" href="https://jsbin.com"><span class="morewords">Back to JS Bin</span></a>
-        <nav>
-          <span class="status">Settings saved</span>
-          <a class="selected" href="https://jsbin.com/account">Account</a>
-          <a href="https://jsbin.com/blog">Blog</a>
-          <a href="https://jsbin.com/help">Help</a>
-        </nav>
-      </div>
-      </header>
-      <div id="tip" class=" notification">
-        <p>
-          
-        </p>
-        <a class="dismiss" href="#">Dismiss x</a>
-      </div>
-      <div id="body">
-        <link rel="stylesheet" href="https://static.jsbin.com/css/login.css?4.1.7">
-
-<div id="login-register-page" class="form-container register">
-  <div class="tabs register">
-    <a class="tab register" href="https://jsbin.com/register">
-      <span>New to JS Bin</span>
-      Register
-    </a>
-    <a class="tab login" href="https://jsbin.com/login">
-      <span>Existing users</span>
-      Login
-    </a>
-  </div>
-  <div class="info "><p></p></div>
-  <form action="https://jsbin.com/register" method="post" class="register">
-    <div>
-      <label for="signup-username">Username</label>
-      <input name="username" id="signup-username" type="text" required pattern="[a-zA-Z0-9_\-]+" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Only numbers, letters, underscore and dash are allowed in the username')">
-    </div>
-    <div>
-      <label for="signup-email">Email address</label>
-      <input name="email" id="signup-email" type="email" required>
-    </div>
-    <div>
-      <label for="signup-key">Password</label>
-      <input name="key" id="signup-key" type="password" required>
-    </div>
-    <div class="submit">
-      <input type="submit" value="Register">
-    </div>    <input type="hidden" name="_csrf" value="vejNmRYx-_1qlnmXPUVWVuh5peQAonPNp1nk">
-    <input type="hidden" name="referrer" value="">
-  </form>
-  <form action="https://jsbin.com/login" method="post" class="login" id="login">
-    <div>
-      <label for="login-username">Email address or username</label>
-      <input name="username" id="login-username" type="text" required value="">
-    </div>
-    <div>
-      <label for="login-key">Password</label>
-      <input name="key" id="login-key" type="password" required>
-    </div>
-    <div class="submit">
-      <input type="submit" value="Log in">
-      <a id="lostpass" class="lostpass" href="https://jsbin.com/forgot">I've forgotten my password</a>
-    </div>    <input type="hidden" name="_csrf" value="vejNmRYx-_1qlnmXPUVWVuh5peQAonPNp1nk">
-    <input type="hidden" name="referrer" value="">
-  </form>
-
-</div>
-<a class="btn-github" href="https://jsbin.com/auth/github">
-  <img src="https://static.jsbin.com/images/github-32.png" alt="">
-  Login or Register via GitHub
-</a>
-
-
-<script src="https://static.jsbin.com/js/vendor/polyfills.js?4.1.7"></script>
-<script src="https://static.jsbin.com/js/vendor/jquery-1.11.0.min.js"></script>
-<script src="https://static.jsbin.com/js/login.js?4.1.7"></script>
-
-      </div>
-      <div class="clear">
-      </div>
-    </div>
-    <footer id="footer">
-    <div class="inner">
-      <ul class="notable">
-        <li><a href="https://jsbin.com/about">About</a>
-        </li>
-        <li><a href="http://github.com/jsbin">Github</a>
-        </li>
-        <li><a href="http://twitter.com/js_bin">Twitter</a>
-        </li>
-        <li><a href="http://jsbin.com/videos">YouTube</a>
-        </li>
-        <li><a href="https://gratipay.com/jsbin/">Donate</a>
-        </li>
-      </ul>
-      <ul class="legal">
-        <li>
-          <em>Hack. Learn. Fix. Teach.</em>
-        </li>
-      </ul>
-    </div>
-    </footer>
-    <script>
-      var $document = $(document); // for chrome/tips.js
-    </script>
-    <script src="https://static.jsbin.com/js/chrome/last-bin.js?4.1.7"></script>
-    <script src="https://static.jsbin.com/js/chrome/tips.js?4.1.7"></script>
-  </body>
+<html>
+<head>
+<title>Creative Colorlib SignUp Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>Creative SignUp Form</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="#" method="post">
+					<input class="text" type="text" name="Username" placeholder="Username" required="">
+					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="password" name="password" placeholder="Password" required="">
+					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+					<div class="wthree-text">
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>I Agree To The Terms & Conditions</span>
+						</label>
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="SIGNUP">
+				</form>
+				<p>Don't have an Account? <a href="#"> Login Now!</a></p>
+			</div>
+		</div>
+		<!-- copyright -->
+		<div class="colorlibcopy-agile">
+			<p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+		</div>
+		<!-- //copyright -->
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
 </html>
