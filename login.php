@@ -24,6 +24,16 @@ if($stmt->rowCount() > 0){
         "id" => $row['id'],
         "username" => $row['username']
     );
+ 
+
+* 
+ if ((status=> true)){
+window.location.href='home.html';
+}
+ 
+*
+ 
+ 
 }
 else{
     $user_arr=array(
