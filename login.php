@@ -25,14 +25,6 @@ if($stmt->rowCount() > 0){
         "username" => $row['username']
     );
  
-
-* 
- if ((status=> true)){
-window.location.href='home.html';
-}
- 
-*
- 
  
 }
 else{
